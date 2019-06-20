@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/pashkovdv/FSD2/issues"
   },
-  "homepage": "https://github.com/pashkovdv/FSD2#readme"
+  "homepage": "https://github.com/pashkovdv/FSD2#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  }
 }
