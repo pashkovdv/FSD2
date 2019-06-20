@@ -1,0 +1,22 @@
+{
+  "name": "fsd2",
+  "version": "1.0.0",
+  "description": "fsd challenge part 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashkovdv/FSD2.git"
+  },
+  "keywords": [
+    "fsd"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashkovdv/FSD2/issues"
+  },
+  "homepage": "https://github.com/pashkovdv/FSD2#readme"
+}
