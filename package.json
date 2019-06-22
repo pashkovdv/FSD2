@@ -4,7 +4,8 @@
   "description": "fsd challenge part 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
   },
   "homepage": "https://github.com/pashkovdv/FSD2#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.4"
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
   }
 }
